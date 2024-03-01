@@ -1,0 +1,80 @@
+:root {
+  --dark-orange: #dc2f02;
+  --orange: #e36414;
+  --red: #d00000;
+  --dark-red: #6a040f;
+  --white: #f8f9fa;
+  --black: #0b090a;
+  --gray: #403d39;
+  --dark-gray: #242423;
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: var(--dark-orange);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.navbar__nav > ul{
+  display: flex;
+  align-items: row;
+  gap: 2rem;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.navbar__nav > ul > li {
+  background-color: var(--dark-gray);
+  padding: 0.8rem;
+  border-radius: 1rem;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.input > input {
+  height: 30px;
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.input > input:focus {
+  box-shadow: 1px 1px 10px black;
+}
+
+.btn {
+  background-color: var(--dark-red);
+  border: none;
+  margin-left: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: var(--white);
+  transition: 0.8s;
+}
+
+.btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+  box-shadow: 1px 1px 10px black;
+}
+
+.btn:active {
+  transition: 0s;
+  background-color: var(--gray);
+}

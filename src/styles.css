@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-orange: #dc2f02;
+  --orange: #e36414;
+  --red: #d00000;
+  --dark-red: #6a040f;
+  --white: #f8f9fa;
+  --black: #0b090a;
+  --gray: #403d39;
+  --dark-gray: #242423;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--dark-gray);
+  color: var(--white)
+}
