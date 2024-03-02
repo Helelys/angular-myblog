@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -9,5 +9,6 @@ import { RouterLink } from '@angular/router';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  @Input()
   imgPlaceholder:string = "https://wilsonclinic.com/wp-content/uploads/2018/12/placeholder-logo-2.png"
 }

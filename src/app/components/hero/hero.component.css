@@ -1,0 +1,51 @@
+:root {
+  --dark-orange: #dc2f02;
+  --orange: #e36414;
+  --red: #d00000;
+  --dark-red: #6a040f;
+  --white: #f8f9fa;
+  --black: #0b090a;
+  --gray: #403d39;
+  --dark-gray: #242423;
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  height: 30vh;
+  background-color: var(--orange);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero > img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+
+  border-radius: 5rem 2rem 2rem 20rem;
+}
+
+.texto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+
+  width: 30rem;
+  height: 100%;
+}
+
+.texto > h1 {
+  font-size: 4rem;
+  text-shadow: 1px 1px 10px black;
+}
+
+.texto > p {
+  margin-top: 2rem;
+  width: 70%;
+  font-size: 1.8rem;
+}
